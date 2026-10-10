@@ -1,6 +1,6 @@
 import modal
-from modal_examples.server.config import server_settings
 
+from modal_examples.server.config import server_settings
 
 HF_VOLUME_NAME = server_settings.hf_volume_name
 HF_CACHE_PATH = server_settings.hf_cache_path

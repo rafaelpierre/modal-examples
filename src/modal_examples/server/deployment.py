@@ -1,10 +1,10 @@
 import modal
+
 from modal_examples.server.config import server_settings
 from modal_examples.server.gemma.config import gemma_settings
 from modal_examples.server.images.vllm import vllm_image
-from modal_examples.server.volumes import get_volumes
 from modal_examples.server.utils import get_vllm_command
-
+from modal_examples.server.volumes import get_volumes
 
 app = modal.App(server_settings.app_name)
 

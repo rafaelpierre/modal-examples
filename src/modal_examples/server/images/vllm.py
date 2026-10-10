@@ -1,6 +1,6 @@
 import modal
-from modal_examples.server.config import server_settings
 
+from modal_examples.server.config import server_settings
 
 BASE_IMAGE = server_settings.default_base_image
 HF_XET_HIGH_PERFORMANCE = server_settings.hf_xet_high_performance
