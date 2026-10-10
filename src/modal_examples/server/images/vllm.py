@@ -16,6 +16,6 @@ vllm_image = (
             "VLLM_LOG_STATS_INTERVAL": VLLM_LOG_STATS_INTERVAL
         }
     )
-    .uv_pip_install("pydantic-settings>=2.15.0")
+    .uv_sync()
     .add_local_python_source("modal_examples")
 )
